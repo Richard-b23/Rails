@@ -4,4 +4,8 @@ class ApplicationController < ActionController::Base
   def hola
   render html: "hola, mundo!"
   end
+
+  def informacion
+    render html: "Esta es una página de información sobre mi aplicación."
+  end
 end
