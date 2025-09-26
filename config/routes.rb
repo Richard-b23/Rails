@@ -16,4 +16,5 @@ Rails.application.routes.draw do
 
 
   root "application#informacion"
+  get "hola", to: "application#hola"
 end
